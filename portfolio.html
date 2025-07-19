@@ -1,134 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
- <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="header">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-content">
+      <aside class="sidebar">
+        <!-- Profile Section -->
+        <div class="profile-pic">
+          <img
+            src="Gomycode_pic/grad_1.jpg"
+            alt="Jordan Ochieng"
+            width="150"
+            height="150"
+          />
+        </div>
+        <h3>Quick Info</h3>
+        <ul>
+          <li><strong>Name:</strong> Jordan Ochieng</li>
+          <li><strong>Location:</strong> Nairobi, Kenya</li>
+          <li><strong>Student at:</strong> GoMyCode Kenya</li>
+          <li><strong>Email:</strong> ochieng2001jordan@gmail.com</li>
+        </ul>
 
-  <!-- Navbar -->
-  <div class="header">
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-  <aside style="background-color: #f0f0f0; padding: 15px; width: 250px; float: right; margin: 20px;">
-  <h3>Quick Info</h3>
-  <ul>
-    <li><strong>Name:</strong> Jordan Ochieng</li>
-    <li><strong>Location:</strong> Nairobi, Kenya</li>
-    <li><strong>Student at:</strong> GoMyCode Kenya</li>
-    <li><strong>Email:</strong> ochieng2001jordan@gmail.com</li>
-  </ul>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript (Basics)</li>
+          <li>PHP (Basics)</li>
+          <li>MySQL (Basics)</li>
+        </ul>
 
-  <h3>Skills</h3>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript (Basics)</li>
-    <li>PHP (Basics)</li>
-    <li>MySQL (Basics)</li>
-  </ul>
+        <h3>Connect</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/Jordan-05-ochieng" target="_blank"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </aside>
 
-  <h3>Connect</h3>
-  <ul>
-    <li><a href="https://github.com/Jordan-05-ochieng" target="_blank">GitHub</a></li>
-  </ul>
-</aside>
+      <div class="content">
+        <!-- Home Section -->
+        <section id="home">
+          <h1>Welcome to My Portfolio</h1>
+          <p>
+            I'm a passionate student developer from GoMyCode showcasing my work
+            and experience in HTML here.
+          </p>
+          <video width="320" height="240" controls>
+            <source src="Gomycode_pic/Video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </section>
 
+        <!-- About Section -->
+        <section id="about">
+          <h2>About Me</h2>
+          <p>
+            I'm a passionate and curious aspiring web developer currently
+            studying at <strong>GoMyCode Kenya</strong>.
+          </p>
+          <p>
+            I recently started my journey into tech and I’m learning how to
+            build websites using HTML, CSS, and JavaScript. Every day I’m
+            growing my skills and learning how to turn ideas into real, working
+            web pages.
+          </p>
+          <ul>
+            <li>HTML, CSS</li>
+            <li>JavaScript Fundamentals</li>
+            <li>Git & GitHub</li>
+          </ul>
+          <audio controls>
+            <source src="Gomycode_pic/audio.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </section>
 
-  <!-- Home Section -->
-  <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>I'm a passionate student developer from GoMyCode showcasing my work and experience in HTML here.</p>
-    <video width="320" height="240" controls>
-      <source src="Gomycode_pic/Video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </section>
+        <!-- Work Section -->
+        <section id="work">
+          <h2>My Work</h2>
+          <p>Here are some projects I've worked on:</p>
+          <ul>
+            <li>Personal Portfolio Website</li>
+            <li>git and github</li>
+          </ul>
+        </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p> I'm a passionate and curious aspiring web developer currently studying at <strong>GoMyCode Kenya</strong>.</p>
-	  <p>I recently started my journey into tech and I’m learning how to build websites using HTML, CSS, and JavaScript. Every day I’m growing my skills and learning how to turn ideas into real, working web pages.</p>
-    <ul>
-      <li>HTML, CSS</li>
-      <li>JavaScript Fundamentals</li>
-      <li>Git & GitHub</li>
-    </ul>
-    <audio controls>
-      <source src="Gomycode_pic/audio.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-    </audio>
-  </section>
+        <!-- Resume Section -->
+        <section id="resume">
+          <h2>Resume</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Position</th>
+                <th>Company</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2025</td>
+                <td>Web Developer Apprentice</td>
+                <td>Nicetouch Tech</td>
+              </tr>
+              <tr>
+                <td>2025</td>
+                <td>Junior Developer</td>
+                <td>GoMyCode Kenya</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
 
-  <!-- Work Section -->
-  <section id="work">
-    <h2>My Work</h2>
-    <p>Here are some projects I've worked on:</p>
-    <ul>
-      <li>Personal Portfolio Website</li>
-      <li>git and github</li>
-    </ul>
-  </section>
+        <!-- Contact Section -->
+        <section id="contact">
+          <h2>Contact Me</h2>
+          <form action="#" method="post">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
 
-  <!-- Resume Section -->
-  <section id="resume">
-    <h2>Resume</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Year</th>
-          <th>Position</th>
-          <th>Company</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2025</td>
-          <td>Web Developer Apprentice</td>
-          <td>Nicetouch Tech</td>
-        </tr>
-        <tr>
-          <td>2025</td>
-          <td>Junior Developer</td>
-          <td>GoMyCode Kenya</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form action="#" method="post">
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
-      
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" cols="50"></textarea
+            ><br /><br />
 
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Send Message" />
+          </form>
+        </section>
+      </div>
+    </div>
 
-      <input type="submit" value="Send Message">
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-  <p>&copy; 2025 My Portfolio. All rights reserved to Jordan Ochieng, GoMyCode Kenya.</p>
-  <a href="mailto:ochieng2001jordan@gmail.com">Send me an email</a>
-  </footer>
-
-</body>
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2025 My Portfolio. All rights reserved to Jordan Ochieng,
+        GoMyCode Kenya.
+      </p>
+      <a href="mailto:ochieng2001jordan@gmail.com">Send me an email</a>
+    </footer>
+  </body>
 </html>
+
